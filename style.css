@@ -3,55 +3,16 @@ div.header {
 	width: 100%;
 	text-align: center;
 	font-size: 100px;
-	border-bottom: black solid;
-	position: fixed;
+	border-bottom: white solid;
 	z-index: 10;
+	color: white;
 }
 
 
 div.content {
-	margin: 0 10% 0 10%;
-	padding-top: 15%;
-	height: 2000px;
-	background: rgba(231,207,242,0.45);
-	background: -moz-linear-gradient(left, rgba(231,207,242,0.45) 0%, rgba(231,207,242,0.58) 18%, rgba(207,150,227,0.92) 64%, rgba(207,150,227,1) 75%);
-	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(231,207,242,0.45)), color-stop(18%, rgba(231,207,242,0.58)), color-stop(64%, rgba(207,150,227,0.92)), color-stop(75%, rgba(207,150,227,1)));
-	background: -webkit-linear-gradient(left, rgba(231,207,242,0.45) 0%, rgba(231,207,242,0.58) 18%, rgba(207,150,227,0.92) 64%, rgba(207,150,227,1) 75%);
-	background: -o-linear-gradient(left, rgba(231,207,242,0.45) 0%, rgba(231,207,242,0.58) 18%, rgba(207,150,227,0.92) 64%, rgba(207,150,227,1) 75%);
-	background: -ms-linear-gradient(left, rgba(231,207,242,0.45) 0%, rgba(231,207,242,0.58) 18%, rgba(207,150,227,0.92) 64%, rgba(207,150,227,1) 75%);
-	background: linear-gradient(to right, rgba(231,207,242,0.45) 0%, rgba(231,207,242,0.58) 18%, rgba(207,150,227,0.92) 64%, rgba(207,150,227,1) 75%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e7cff2', endColorstr='#cf96e3', GradientType=1 );
+	margin: 0 10% 10% 10%;
+	font-size: 15pt;
 }
-
-div.footer {
-	border-top: black solid;
-	background-color: red;
-	font-size: 60pt;
-}
-
-.new_york {
-	float: left;
-	width: 50%;
-	/* border: black dotted; */
-	margin-right: 15px;
-	margin-bottom: 10px;
-	transition: all 0.3s ease-out;
-	position: relative;
-	top: 0px;
-	left: 0px;
-	-webkit-box-shadow: 9px -9px 5px 0px rgba(0,0,0,0.75);
-	-moz-box-shadow: 9px -9px 5px 0px rgba(0,0,0,0.75);
-	box-shadow: 9px -9px 5px 0px rgba(0,0,0,0.75);
-}
-
-.new_york:hover {
-	-webkit-box-shadow: 9px 6px 5px 0px rgba(0,0,0,0.75);
-	-moz-box-shadow: 9px 6px 5px 0px rgba(0,0,0,0.75);
-	box-shadow: 9px 6px 5px 0px rgba(0,0,0,0.75);
-	top: -3px;
-	left: -3px;
-}
-
 
 .moscow {
 	float: left;
@@ -63,17 +24,28 @@ div.footer {
 	position: relative;
 	top: 0px;
 	left: 0px;
-	box-shadow: 10px 13px 4px -1px rgba(0,0,0,0.75);
 }
 
 .moscow:hover {
-	box-shadow: -11px -12px 90px 68px rgba(128,118,128,0.2);
-	border-radius: 70px;
-	top: 10px;
-	left: 10px;
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	top: -6px;
+	left: -6px;
 }
 
 .cities {
 	text-align: left;
 	margin-left: 5px;
+	color: white;
+}
+
+body {
+	background-image: url("http://www.pptbackgrounds.org/uploads/dream-autumn-light-powerpoint-backgrounds.jpg");
+	background-size: 100% 100%;
+}
+
+.table {
+	margin-left: 10%;
+	color: white;
 }
