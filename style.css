@@ -12,6 +12,8 @@ div.header {
 div.content {
 	margin: 0 10% 10% 10%;
 	font-size: 15pt;
+	text-shadow: 0.5px 0.5px white;
+
 }
 
 .moscow {
