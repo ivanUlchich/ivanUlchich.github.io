@@ -6,11 +6,28 @@ div.header {
 	border-bottom: white solid;
 	z-index: 10;
 	color: white;
+	/*font-family: 'Anton', sans-serif;
+	font-family: 'Shadows Into Light', cursive;
+	font-family: 'Gloria Hallelujah', cursive;
+	font-family: 'Righteous', cursive;
+	font-family: 'Permanent Marker', cursive;
+	font-family: 'Monoton', cursive; */
+	font-family: 'Bangers', cursive;
+	transition: all 0.3s ease-out;
 }
 
+div.header:hover {
+	/*background-image: linear-gradient(to right bottom, #051937, #004d7a, #008793, #00bf72, #a8eb12);*/
+	color: #5EC1C2;
+	border-color: #5EC1C2;
+}
+
+a {
+	font-family: 'Audiowide', cursive;
+}
 
 div.content {
-	margin: 0 10% 10% 10%;
+	margin: 0 10% 2% 10%;
 	font-size: 15pt;
 	text-shadow: 0.5px 0.5px white;
 
@@ -39,7 +56,19 @@ div.content {
 .cities {
 	text-align: left;
 	margin-left: 5px;
-	color: white;
+	color: black;
+	font-family: 'Permanent Marker', cursive;
+	position: relative;
+	transition: all 0.3s ease-out;
+	top: 0px;
+	left: 0px;
+	width: 20%;	
+}
+
+.cities:hover {
+	top: -3px;
+	left: -3px;	
+	text-shadow: 3px 3px white;
 }
 
 body {
@@ -50,4 +79,10 @@ body {
 .table {
 	margin-left: 10%;
 	color: white;
+}
+
+p.description {
+	/*font-family: 'Permanent Marker', cursive;*/
+	font-family: 'Righteous', cursive;
+	
 }

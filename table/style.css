@@ -56,6 +56,7 @@ td:hover {
 .section_header {
     font-size: 40px;
     border-bottom: solid black 3px;
+    font-family: 'Indie Flower', cursive;
 }
 
 div.section_header {
