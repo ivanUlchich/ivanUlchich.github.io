@@ -5,7 +5,8 @@ div.header {
 	font-size: 100px;
 	border-bottom: white solid;
 	z-index: 10;
-	color: white;
+	color: #5EC1C2;
+	border-color: #5EC1C2;
 	/*font-family: 'Anton', sans-serif;
 	font-family: 'Shadows Into Light', cursive;
 	font-family: 'Gloria Hallelujah', cursive;
@@ -18,8 +19,8 @@ div.header {
 
 div.header:hover {
 	/*background-image: linear-gradient(to right bottom, #051937, #004d7a, #008793, #00bf72, #a8eb12);*/
-	color: #5EC1C2;
-	border-color: #5EC1C2;
+	color: white;
+	border-color: white;
 }
 
 a {
@@ -51,6 +52,8 @@ div.content {
 	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 	top: -6px;
 	left: -6px;
+	transition: transform 1.5s ease-in-out;
+	transform: scale(1) rotate(360deg);
 }
 
 .cities {
