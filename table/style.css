@@ -7,7 +7,7 @@ body {
 
 section {
 
-    background-color: #97ff332b;
+    background-color: rgba(24, 242, 173, 0.18);
     border: solid rgb(228, 144, 144) 10px;
     border-radius: 50px;
     padding-bottom: 2%;
@@ -30,7 +30,7 @@ table {
     transition: all 0.3s ease-out;
 }
 
-img {
+img, td {
     width: 60px;
     height: 60px;
 }
@@ -38,11 +38,19 @@ img {
 td, tr {
     /* border: solid #aaaaaa 2px; */
     font-size: 30px;
-    background-color: white;
+    /* background-color: white; */
     position: relative;
     top: 0px;
     left: 0px; 
     transition: 0.3s ease-out;
+    text-align: left;
+    vertical-align: top;
+}
+
+td img {
+    position: absolute;
+    transition: all 0.3s ease-out;
+
 }
 
 td:hover {
@@ -51,6 +59,14 @@ td:hover {
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+td:hover img {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    z-index: 10;
+    top: 120px;
 }
 
 .section_header {
@@ -71,7 +87,7 @@ div.section_header:hover {
 }
 
 section:hover {
-    background-color: #ccffcc;
+    background-color: #97ff332b;
     top: -3px;
     left: -3px;
     -webkit-box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.75);
