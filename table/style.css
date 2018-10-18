@@ -2,7 +2,7 @@ body {
     text-align:  center;
     background-image: url("http://www.victoriadrivegospelhall.com/wp-content/uploads/2015/10/violet-vector-leaves-circles-backgrounds-for-powerpoint1.jpg"); 
     /* url("https://images.unsplash.com/photo-1487640228478-7a32e30a9e40?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1eb8b6f295d4447b593767c4b14c4e62&w=1000&q=80"); */
-    background-size: 100%;
+    background-size: cover;
 }
 
 section {
@@ -13,7 +13,7 @@ section {
     padding-bottom: 2%;
     /* height: 100%; */
     margin: 100px auto;
-    width: 700px;
+    width: 600px;
     transition: all 0.3s ease-out;
     position: relative;
     top: 0px;
@@ -86,7 +86,7 @@ div.section_header:hover {
     background-color: rgb(154, 230, 206);
 }
 
-section:hover {
+section.section_1:hover {
     background-color: #97ff332b;
     top: -3px;
     left: -3px;

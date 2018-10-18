@@ -11,7 +11,7 @@
 
 <body>
 
-    <section>
+    <section class="section_1">
 
         <div class="section_header">Header</div>
         <br/>
@@ -79,12 +79,20 @@
     <section>
         <form>
             <div>
-                First name:
-                <input name="firstname" />
+                First name
+                <input name="firstname" autocomplete="off" placeholder=" Enter your firstname" />
             </div>
             <div>
                 Last name:
-                <input name="lastname"/>
+                <input name="lastname" autocomplete="off" placeholder=" Enter your lastname" />
+            </div>
+            <div>
+                Email:
+                <input name="email_input" / type="email" placeholder=" Enter your email" />
+            </div>
+            <div>
+                Password:
+                <input name="password_input" type="password" placeholder=" Enter your password" />
             </div>
             <div>
                 <button type="submit">Send</button>
