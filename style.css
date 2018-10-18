@@ -75,8 +75,11 @@ div.content {
 }
 
 body {
-	background: url("http://www.pptbackgrounds.org/uploads/dream-autumn-light-powerpoint-backgrounds.jpg");
-	background-size: cover;
+	background: url("http://www.pptbackgrounds.org/uploads/dream-autumn-light-powerpoint-backgrounds.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
 }
 
 .table {
