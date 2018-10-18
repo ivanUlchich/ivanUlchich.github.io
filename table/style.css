@@ -102,3 +102,26 @@ table:hover {
     -moz-box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.75);
     box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.75);
 }
+
+input, button {
+    margin-top: 10px;
+}
+
+input {
+
+    width: 20em;
+    height: 1.5em;
+    margin-right: 5em;
+
+}
+
+form {
+
+    /*font-family: 'Anton', sans-serif;
+	font-family: 'Shadows Into Light', cursive;
+	font-family: 'Gloria Hallelujah', cursive;
+	font-family: 'Righteous', cursive;
+	font-family: 'Permanent Marker', cursive;*/
+    font-family: 'Monoton', cursive;
+    font-size: 2em;
+}
