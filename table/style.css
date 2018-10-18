@@ -107,13 +107,11 @@ input, button {
     margin-top: 10px;
 }
 
-input {
+/* input {
 
-    width: 20em;
-    height: 1.5em;
-    margin-right: 5em;
+  margin-right: 100px;
 
-}
+} */
 
 form {
 
@@ -124,4 +122,17 @@ form {
 	font-family: 'Permanent Marker', cursive;*/
     font-family: 'Monoton', cursive;
     font-size: 2em;
+}
+
+div.input_div {
+    text-align: right;
+    margin-right: 10px;
+    margin-left: auto;
+    padding-right: auto;
+    padding-left: 20px;
+}
+
+section:form_section {
+    padding-right: 400px;
+
 }
