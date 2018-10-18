@@ -2,7 +2,7 @@ body {
     text-align:  center;
     background-image: url("http://www.victoriadrivegospelhall.com/wp-content/uploads/2015/10/violet-vector-leaves-circles-backgrounds-for-powerpoint1.jpg"); 
     /* url("https://images.unsplash.com/photo-1487640228478-7a32e30a9e40?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1eb8b6f295d4447b593767c4b14c4e62&w=1000&q=80"); */
-    background-size: 100%;
+    background-size: cover;
 }
 
 section {
