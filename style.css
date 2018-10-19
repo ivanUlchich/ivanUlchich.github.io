@@ -90,5 +90,5 @@ body {
 p.description {
 	/*font-family: 'Permanent Marker', cursive;*/
 	font-family: 'Righteous', cursive;
-	
+	line-height: 30px;
 }
